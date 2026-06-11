@@ -13,14 +13,14 @@ const serif = "'Cormorant Garamond', Georgia, serif";
 const sans = "'DM Sans', sans-serif";
 
 const neighborhoods = [
-  { name: "Plaza Midwood", type: "Historic · Eclectic", desc: "Charlotte's most walkable historic neighborhood. Bungalows, Central Ave, Gold Line." },
-  { name: "NoDa", type: "Arts District", desc: "Murals, music venues, indie eateries. Charlotte's creative heartbeat." },
-  { name: "Dilworth", type: "Historic · Family", desc: "Tree-lined streets, craftsman bungalows. Charlotte's first suburb." },
-  { name: "Myers Park", type: "Luxury · Established", desc: "Grand homes, oak-lined boulevards, top schools." },
-  { name: "South End", type: "Urban · Modern", desc: "Breweries, tech startups, art galleries. Blue Line runs through it." },
-  { name: "Elizabeth", type: "Walkable · Charming", desc: "Historic homes, cozy cafes, quiet energy minutes from Uptown." },
-  { name: "Cotswold", type: "Convenient · Established", desc: "Great schools, Freedom Park, farmers market." },
-  { name: "Uptown Charlotte", type: "Urban Core", desc: "Charlotte's beating heart. High-rise living, culture, sports." },
+  { name: "Plaza Midwood", slug: "plaza-midwood", type: "Historic · Eclectic", desc: "Charlotte's most walkable historic neighborhood. Bungalows, Central Ave, Gold Line." },
+  { name: "NoDa", slug: "noda", type: "Arts District", desc: "Murals, music venues, indie eateries. Charlotte's creative heartbeat." },
+  { name: "Dilworth", slug: "dilworth", type: "Historic · Family", desc: "Tree-lined streets, craftsman bungalows. Charlotte's first suburb." },
+  { name: "Myers Park", slug: "myers-park", type: "Luxury · Established", desc: "Grand homes, oak-lined boulevards, top schools." },
+  { name: "South End", slug: "south-end", type: "Urban · Modern", desc: "Breweries, tech startups, art galleries. Blue Line runs through it." },
+  { name: "Elizabeth", slug: "elizabeth", type: "Walkable · Charming", desc: "Historic homes, cozy cafes, quiet energy minutes from Uptown." },
+  { name: "Cotswold", slug: "cotswold", type: "Convenient · Established", desc: "Great schools, Freedom Park, farmers market." },
+  { name: "Uptown Charlotte", slug: "uptown-charlotte", type: "Urban Core", desc: "Charlotte's beating heart. High-rise living, culture, sports." },
 ];
 
 const testimonials = [
