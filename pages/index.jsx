@@ -231,7 +231,7 @@ export default function RyanMcGill() {
       <section id="about" style={{ background: C.cream }}>
         {/* Full-width photo */}
         <div style={{ position: "relative", height: "56vw", maxHeight: 520, overflow: "hidden" }}>
-          <img src={IMG_GROUP} alt="Ryan McGill U.S. Army" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition:"center center", display: "block" }} />
+          <img src={IMG_GROUP} alt="Ryan McGill U.S. Army" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition:"center 25%", display: "block" }} />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, transparent 50%, rgba(245,241,235,0.95) 100%)" }} />
         </div>
 

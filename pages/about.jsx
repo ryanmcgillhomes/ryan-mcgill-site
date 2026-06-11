@@ -336,7 +336,7 @@ export default function AboutRyan() {
           src={IMG_CLOSEUP}
           alt="Ryan McGill, Charlotte NC realtor close up portrait"
           decoding="async"
-          style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center center", display:"block" }}
+          style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center 15%", display:"block" }}
         />
         <div style={{ position:"absolute", inset:0, background:"linear-gradient(to bottom, transparent 50%, rgba(245,241,235,0.95) 100%)" }} />
       </div>
