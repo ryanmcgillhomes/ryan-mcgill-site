@@ -23,9 +23,9 @@ export default function Nav({ light = false }) {
   return (
     <nav style={{ position:'fixed', top:0, left:0, right:0, zIndex:200, background: scrolled||menuOpen ? 'rgba(253,252,250,0.97)' : 'transparent', backdropFilter:'blur(20px)', borderBottom: scrolled ? `1px solid ${C.rule}` : '1px solid transparent', transition:'all 0.3s' }}>
       <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', padding:'1rem 1.4rem' }}>
-        <Link href="/" style={{ fontFamily:serif, fontSize:'1.05rem', fontWeight:400, color:textColor, lineHeight:1.15, transition:'color 0.3s' }}>
+        <Link href="/" style={{ fontFamily:serif, fontSize:'1.25rem', fontWeight:400, color:textColor, lineHeight:1.15, transition:'color 0.3s', padding:'0.25rem 0.5rem', marginLeft:'-0.5rem', borderRadius:3 }}>
           Ryan McGill
-          <span style={{ display:'block', fontFamily:sans, fontSize:'0.55rem', letterSpacing:'0.13em', textTransform:'uppercase', color:subColor, marginTop:1 }}>5 Points Realty · Charlotte, NC</span>
+          <span style={{ display:'block', fontFamily:sans, fontSize:'0.62rem', letterSpacing:'0.13em', textTransform:'uppercase', color:subColor, marginTop:1 }}>5 Points Realty · Charlotte, NC</span>
         </Link>
         <div style={{ display:'flex', alignItems:'center', gap:'0.75rem' }}>
           <a href="tel:+17045764118" style={{ background:C.accent, color:'#fff', fontFamily:sans, fontSize:'0.68rem', fontWeight:500, letterSpacing:'0.1em', textTransform:'uppercase', padding:'0.55rem 1rem', borderRadius:2 }}>Call Ryan</a>

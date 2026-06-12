@@ -9,6 +9,7 @@ const PROFILES = [
   { icon:'🏢', label:'5 Points Realty Profile',   href:'https://5pointsrealty.myhomesear.ch/our-agents/agent-details.cfm?AgentID=759' },
   { icon:'🏠', label:'Realtor.com Profile',        href:'https://www.realtor.com/realestateagents/67f735599211d83beef98579' },
   { icon:'💼', label:'LinkedIn',                   href:'https://www.linkedin.com/in/ryanmcgill13' },
+  { icon:'📸', label:'Instagram',                  href:'https://www.instagram.com/ryanmcgill_nc/' },
 ];
 
 export default function Footer() {
